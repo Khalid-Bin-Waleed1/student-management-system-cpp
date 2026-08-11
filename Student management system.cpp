@@ -1,28 +1,5 @@
-/*
-
-TASK NO : 1
-
 **STUDENT MANAGEMENT SYSTEM**
-
-Project memebers details:
-+------------------------+-------------+---------+
-| Name                   | ID          | Section |
-+------------------------+-------------+---------+
-| Saad Bin Usman         | F2025376144 | A-10    |
-| Ali Usman              | F2025376150 | A-10    |
-| Khalid Bin Waleed      | F2025376122 | A-10    |
-| Hamza Malik            | F2025376145 | A-10    |
-+------------------------+-------------+---------+
-*/
-
-// we have also used some extra functions in this student management system because when we enter we enter maximum students the code evry time asks
-// to enter maximum number of students which many times cause data program faliure logicaly and some time over writes data on the files so we create 
-// a new function to resize capacity named in the code but in user interface named as increase capacity and locked the maximum number students permanaently
-// in a new file and make a function for reset the new capacity and also add a new function named as delete student so it looks a proper student management 
-// system we also add some key security layers to inhance the working of the code such as call save to file functions at every student is added so if user
-// accidently forget to save data it may not have any data loss and call load function in main so at evey execution of program it automatically load the files
-// and fetch data from the file and user do not need to enter any data again and again these are the some quality changes and additions we make to inhance 
-// the working of the code. 
+	
 
 #include <iostream>
 #include <string>
